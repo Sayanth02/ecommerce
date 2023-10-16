@@ -1,0 +1,160 @@
+/* navbar */
+.Search{
+    width: 850px;
+    margin-left: 15px;
+   
+}
+.input-group-text{
+    height: 40px;
+   
+}
+.navbar{
+    background-color: #131A22;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.btnGroupAddon{
+    background-color: #FEBD69;
+}
+
+.nav-item{
+    color: white;
+    padding-top: 40px;
+   margin: 0 10px;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 40px; 
+    object-fit:scale-down;
+}
+
+
+/* row */
+.row{
+    width: 100%;
+    height: 400px;
+   border-bottom: 1px solid rgb(237, 231, 231);
+    margin: 0;
+}
+/* left col */
+.col-5{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+/* image div */
+.col-5 .phone{
+    padding-left: 200px;
+}
+.col-5 .phone img{
+    width:300px ;
+    height: 300px;
+    object-fit:scale-down;
+}
+/* right col */
+.col-7{
+    
+}
+
+
+
+/*product name  */
+.name{
+    margin-top: 50px;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+.name h3:hover{
+    color: #FEBD69;
+}
+
+/* product rating */
+
+.rating i{
+   color: gold;
+}
+.rating a{
+    text-decoration: none;
+}
+
+
+/* price */
+
+.price{
+    margin-top: 15px;
+}
+
+
+
+/* date */
+.date{
+    margin-top: 20px;
+    line-height: 30px
+}
+.date span{
+    color: red;
+}
+
+
+
+/* Responsive code */
+
+
+
+@media (max-width:600px){
+    .phone{
+        margin-left: 20px;
+    }
+    .row{
+        height: calc(100vh/3);
+    }
+    .col-5 .phone{
+        padding-left: 0px;
+    }
+    .col-5 .phone img{
+        width:150px ;
+        height: 150px;
+        object-fit:scale-down;
+    }
+    .name{
+        margin-top: 10px;
+    }
+   .name h3{
+        font-size: 10px;
+    }
+    .rating {
+        font-size: 7px;
+    }
+    .price {
+        margin-top: 5px;
+    }
+    .price h3{
+        font-size: 10px;
+    }
+    .price span{
+        font-size: 6px;
+        margin-top: 5px;
+    }
+    .price p{
+        font-size: 7px;
+    }
+    .date p{
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 10px;
+      
+      
+    }
+    .date span{
+        color: red;
+          
+    }
+
+}
